@@ -1,0 +1,99 @@
+.hero {
+background-color:rgb(215, 238, 248);
+margin-top: 0px;
+position: relative;
+
+padding-top: 100px;
+
+
+
+
+}
+.name{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 60px;
+    color:rgb(54, 163, 206);
+    position: center;
+}
+
+.profession{
+    color:rgb(54, 163, 206);
+    font-weight: bold;
+}
+
+.intro{
+    color:rgb(54, 163, 206);
+    font-weight: bold;
+    font-size: 20px;
+
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+  
+}
+.photo{
+    border-radius: 50%;
+}
+
+.namaste{
+    display: flex;
+    justify-content: center;
+    color: rgb(72, 191, 238);
+
+    
+font-weight: bold;
+}
+
+
+.me{
+    display: flex;
+    justify-content: center;
+    
+}
+.krishna{
+    font-size:20px;
+    font-weight: bold;
+
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    color: rgb(72, 191, 238);
+
+
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.touch{
+    text-align: center;
+    font-weight: bold;
+}
+.btn{
+    background-color: rgb(72, 191, 238);
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.footer{
+    background-color: rgb(232, 240, 244);
+}
+
+
+
+
